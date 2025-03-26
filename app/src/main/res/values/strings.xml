@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">PanasCoop</string>
+    <string name="app_name">PanascOOP</string>
+    <string name="titulo_actividad">Título de Actividad %1$d</string>
+    <string name="descripcion_actividad">Descripción pequeña sobre y/o de que trata la actividad</string>
+    <string name="fecha_actividad">Fecha de Actividad: %1$s</string>
+    <string name="lugar_actividad">Lugar de Actividad: %1$s</string>
+    <string name="lista_responsables">Lista de responsables</string>
+    <string name="lista_participantes">Lista de participantes</string>
+    <string name="publicar">Publicar</string>
+    <string name="panascoop">PanascOOP</string>
+    <string name="perfil">Perfil</string>
+    <string name="gestion_actividades">Gestión de Actividades solidarias</string>
+    <string name="act_recientes">Act. Recientes</string>
+    <string name="configuracion">Configuración</string>
+    <string name="actividades_promocionadas">Actividades Promocionadas:</string>
 </resources>

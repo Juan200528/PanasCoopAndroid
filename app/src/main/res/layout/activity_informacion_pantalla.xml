@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InformacionPantalla">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PanascOOP"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_perfil"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/logoperfil"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perfil"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_fecha_lugar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gestión de Actividades solidarias"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btn_promocionar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Act.Promocionar"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="#064349"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_configuracion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Configuración"
+                android:backgroundTint="#064349"
+                android:textColor="@android:color/white" />
+
+            <ImageView
+                android:id="@+id/img_notificacion"
+                android:layout_width="34dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/notificacion"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actividades Promocionadas:"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardElevation="4dp"
+        android:backgroundTint="#B9D4D4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Título de Actividad 1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descripción pequeña sobre y/o de qué trata la actividad"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_marginTop="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp">
+
+                <Button
+                    android:id="@+id/btn_lista_responsables"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Lista de responsables"
+                    android:backgroundTint="#064349"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btn_lista_participantes"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Lista de participantes"
+                    android:backgroundTint="#064349"
+                    android:textColor="@android:color/white" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_publicar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Publicar"
+                android:backgroundTint="#064349"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
