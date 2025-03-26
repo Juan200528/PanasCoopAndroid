@@ -1,3 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PanasCoop</string>
+    <string name="app_name">PanascoOP</string>
+    <string name="forgot_password_title">¿Tienes problemas para entrar?</string>
+    <string name="forgot_password_description">Introduce tu correo electrónico, te enviaremos un enlace para que vuelvas a entrar en tu cuenta.</string>
+    <string name="email_label">Correo electrónico</string>
+    <string name="email_hint">Introduce tu email</string>
+    <string name="send_link_button">Enviar enlace de acceso</string>
+    <string name="create_account_button">Crear cuenta nueva</string>
 </resources>
