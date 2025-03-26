@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">PanasCoop</string>
+    <string name="app_name">PanascOOP</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="correo_electronico">Correo electrónico</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="registrarse">¿No tienes una cuenta? Regístrate</string>
+    <string name="olvido_contraseña">¿Has olvidado la contraseña?</string>
 </resources>
